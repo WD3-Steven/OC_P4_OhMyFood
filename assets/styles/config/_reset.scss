@@ -1,0 +1,36 @@
+//  Reset CSS
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: {
+    size: $df_font_size;
+    weight: $df_font_weight;
+    style: $df_font_size;
+    family: $corps_font;
+  }
+  color: $black;
+  text: {
+    decoration: $df_text_decoration;
+    transform: $df_text_transform;
+  }
+  line-height: $df_line_height;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: $black;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "oc_p4_ohmyfood",
+  "version": "1.0.0",
+  "description": "Project OpenClassRoom",
+  "author": "Steven",
+  "license": "ISC",
+  "scripts": {
+    "sass": "sass assets/styles/application.scss:public/dist/application.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}
