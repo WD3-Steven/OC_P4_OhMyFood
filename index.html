@@ -3,13 +3,137 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OhMyFood est l'application numéro 1 pour choisir votre restaurant préféré ! Alors n'attendez plus et commander chez nous !"
+    />
     <title>OhMyFood - Accueil</title>
 
     <!-- Link Main CSS File (application.css) -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/public/dist/application.css"
+    />
 
     <!-- Link FontAwesome CDN -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <img src="public/img/ohmyfood.png" alt="logo" />
+      <div class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <p>Paris, Belleville</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="reservation">
+        <h1>Réservez le menu qui vous convient</h1>
+        <p>Découvrez des restaurants d'exception, selectionnés par nos soins</p>
+        <a class="btn" href="">Explorez nos restaurants</a>
+      </div>
+
+      <div class="function">
+        <h2>Fonctionnement</h2>
+        <ol>
+          <li>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <p>Choisissez un restaurant</p>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-list"></i>
+            <p>Composez votre menu</p>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-store"></i>
+            <p>Dégustez au restaurant</p>
+          </li>
+        </ol>
+      </div>
+
+      <section class="restaurant">
+        <h2>Restaurant</h2>
+
+        <div class="card-container">
+          <div class="card">
+            <img src="public/img/cardimg.png" alt="" />
+            <div class="desc-card">
+              <h3>La palette du goût</h3>
+              <p>Ménilmontant</p>
+              <div class="fav">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="public/img/cardimg.png" alt="" />
+            <div class="desc-card">
+              <h3>La note enchantée</h3>
+              <p>Charonne</p>
+              <div class="fav">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="public/img/cardimg.png" alt="" />
+            <div class="desc-card">
+              <h3>A la française</h3>
+              <p>Cité Rouge</p>
+              <div class="fav">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="public/img/cardimg.png" alt="" />
+            <div class="desc-card">
+              <h3>Le délice des sens</h3>
+              <p>Folie-Méricourt</p>
+              <div class="fav">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="logo-footer">
+        <p>ohmyfood</p>
+      </div>
+      <div class="footer">
+        <ul>
+          <li>
+            <i class="fa-solid fa-utensils" style="color: #ffffff"></i>
+            <p>Proposer un restaurant</p>
+          </li>
+          <li>
+            <i class="fa-regular fa-handshake" style="color: #ffffff"></i>
+            <p>Devenir partenaire</p>
+          </li>
+          <li>
+            <p>Mentions légales</p>
+          </li>
+          <li>
+            <p>Contact</p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
