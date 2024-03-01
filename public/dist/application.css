@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap");
 *,
 ::before,
 ::after {
@@ -11,7 +11,7 @@ body {
   font-size: 15px;
   font-weight: 300;
   font-style: 15px;
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #000000;
   text-decoration: none;
   line-height: 1.5;
@@ -27,6 +27,43 @@ a,
 a:visited {
   text-decoration: none;
   color: #000000;
+}
+
+svg {
+  width: 10px;
+  height: 10px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+  }
+  nav img {
+    width: 162px;
+    max-height: 100%;
+    padding: 20px 0px 12px 0px;
+  }
+  nav .location {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    gap: 17px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #353535;
+  }
+}
+nav svg {
+  width: 12px;
+  height: 16px;
 }
 
 /*# sourceMappingURL=application.css.map */
